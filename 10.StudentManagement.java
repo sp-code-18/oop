@@ -19,7 +19,7 @@ public class StudentManagement {
             "jdbc:mysql://localhost:3306/college";
 
     static final String USER = "root";
-    static final String PASS = "SAWAN8830";
+    static final String PASS = "avcoe";
 
     public static void main(String[] args) {
 
