@@ -13,7 +13,7 @@ CREATE TABLE student (
 import java.sql.*;
 import java.util.Scanner;
 
-public class StudentManagement {
+class StudentManagement {
 
     static final String URL =
             "jdbc:mysql://localhost:3306/college";
