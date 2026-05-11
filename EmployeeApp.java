@@ -1,3 +1,15 @@
+/* create database first and their table 
+    CREATE DATABASE company;
+    USE company;
+
+    CREATE TABLE employee (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    salary DOUBLE
+    );
+
+*/
+
 import java.sql.*;
 import java.util.Scanner;
 
