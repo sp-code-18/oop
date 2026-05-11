@@ -1,0 +1,42 @@
+// save Car.java
+
+public interface Car {
+    void run();
+}
+
+
+// save BMW.java
+
+public class BMW implements Car {
+    public void run() {
+        System.out.println("BMW running");
+    }
+}
+
+
+//Save Audi.java
+
+public class Audi implements Car {
+    public void run() {
+        System.out.println("Audi running");
+    }
+}
+
+// save MainApp.java
+
+class MainApp {
+    public static void main(String[] args) {
+
+        Car c;
+
+        c = new BMW();
+        c.run();
+
+        c = new Audi();
+        c.run();
+
+      }
+}
+
+// javac Car.java BMW.java Audi.java MainApp.java
+// java MainApp
